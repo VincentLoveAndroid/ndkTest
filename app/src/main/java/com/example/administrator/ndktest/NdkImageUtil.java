@@ -12,4 +12,5 @@ public class NdkImageUtil {
     }
 
     public static native int[] getImage(int[] buffer, int width, int height);
+
 }

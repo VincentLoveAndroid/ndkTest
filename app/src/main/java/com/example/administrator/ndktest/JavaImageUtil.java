@@ -1,7 +1,9 @@
 package com.example.administrator.ndktest;
 
+import android.annotation.TargetApi;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.os.Trace;
 
 /**
  * Created by vincent on 2016/11/4.
@@ -11,7 +13,6 @@ import android.graphics.Color;
 
 public class JavaImageUtil {
     public static float WhiteDegree = 0.2f;
-
     public static Bitmap getBitmap(Bitmap originalBitmap) {
         int width = originalBitmap.getWidth();
         int height = originalBitmap.getHeight();

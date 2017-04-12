@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.example.administrator.ndktest.jnitest.JNITest;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -11,9 +13,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    // Example of a call to a native method
-    TextView tv = (TextView) findViewById(R.id.sample_text);
-    //tv.setText(stringFromJNI());
+        // Example of a call to a native method
+        TextView tv = (TextView) findViewById(R.id.sample_text);
+
+        JNITest jniTest = new JNITest();
+        jniTest.getStringFromObject();
+        String name = jniTest.name;
+        tv.setText(name);
+        //tv.setText(stringFromJNI());
     }
 //
 //    /**
