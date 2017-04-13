@@ -1,5 +1,7 @@
 package com.example.administrator.ndktest.jnitest;
 
+import java.util.Date;
+
 /**
  * Created by vincent on 2017/4/12.
  * email-address:674928145@qq.com
@@ -17,4 +19,10 @@ public class JNITest {
     public static native String getStringFromC();
 
     public native String getStringFromObject();
+
+    public static native long accessConstructor();
+
+    public static native Date accseeNonvirtualMethod();
+
+
 }
