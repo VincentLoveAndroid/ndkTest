@@ -1,4 +1,4 @@
-package com.example.administrator.ndktest;
+package com.example.administrator.ndktest.imageprocess;
 
 import android.annotation.TargetApi;
 import android.graphics.Bitmap;

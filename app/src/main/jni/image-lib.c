@@ -4,7 +4,7 @@
 
 
 JNIEXPORT jintArray JNICALL
-Java_com_example_administrator_ndktest_NdkImageUtil_getImage(JNIEnv *env, jclass type,
+Java_com_example_administrator_ndktest_imageprocess_NdkImageUtil_getImage(JNIEnv *env, jclass type,
                                                              jintArray buffer_, jint width,
                                                              jint height) {
     jint *buffer = (*env)->GetIntArrayElements(env, buffer_, 0);

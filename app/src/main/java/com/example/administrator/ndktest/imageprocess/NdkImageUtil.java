@@ -1,4 +1,4 @@
-package com.example.administrator.ndktest;
+package com.example.administrator.ndktest.imageprocess;
 
 /**
  * Created by vincent on 2016/11/4.

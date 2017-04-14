@@ -1,4 +1,4 @@
-package com.example.administrator.ndktest;
+package com.example.administrator.ndktest.imageprocess;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.example.administrator.ndktest.R;
 
 public class ImageActivity extends Activity {
 

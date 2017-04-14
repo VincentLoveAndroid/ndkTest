@@ -8,7 +8,7 @@ package com.example.administrator.ndktest.jnitest.obj;
 
 public class Human {
 
-    public void sing() {
-        System.out.println("Human is singing");
+    public String sing() {
+        return "Human is singing";
     }
 }

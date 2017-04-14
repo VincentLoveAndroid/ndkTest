@@ -22,7 +22,21 @@ public class JNITest {
 
     public static native long accessConstructor();
 
-    public static native Date accseeNonvirtualMethod();
+    public static native String accessCustomClassMethod();
+
+    public static native String accessNonvirtualMethod();
+
+    public static native String resolveMessyCode();
+
+    public static native int[] getSortResultFromC(int[] arr);
+
+    public static native Date newGlobalRef();
+
+    public static native Date getGlobalRef();
+
+    public static native Date deleteGlobalRef();
+
+    public static native int handleException();
 
 
 }
